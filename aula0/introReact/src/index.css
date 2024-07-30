@@ -1,0 +1,14 @@
+html,body,#root{
+    height: 100%;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+}
+
+:root{
+    --cor-1: #a3b18a;
+    --cor-2: #588157;
+    --cor-3: #3a5a40;
+    --cor-4: #344e41;
+    --cor-5: #dad7cd;
+}
