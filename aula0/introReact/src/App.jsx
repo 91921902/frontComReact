@@ -1,18 +1,14 @@
 
 import './App.css'
-import Conteudo from './components/Conteudo'
-import NavBar from './components/Navbar'
+import Home from './pages/Home'
 
 function App() {
-  
-
   return (
-  <>
-     
-    <NavBar/>    
-    <Conteudo/>
+  
+      <div className='app-container'>
+      <Home/>
+      </div>
 
-  </>
   )
 }
 

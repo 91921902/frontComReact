@@ -1,7 +1,14 @@
 .conteudo-container{
     background-color: var(--cor-5);
     height: calc(100vh - 60px);
-    color: var(--cor-2)
-
+    color: var(--cor-2);
+    align-items:center;
+    display: flex;
+    flex-direction: column;
     
+}
+.imagem-conteudo{ /*css imagem*/
+    width: 200px;
+    border-radius: 10px;
+  
 }
