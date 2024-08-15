@@ -1,8 +1,9 @@
 .header-container{
-
     background-color: var(--cor-1);
     color: var(--cor-2);
-    text-align: center;
-    padding: 20px;
+    align-items:center;
+    display: flex;
+    flex-direction: column;
+    
 
 }
