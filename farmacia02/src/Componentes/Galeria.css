@@ -1,0 +1,13 @@
+
+.imagem-placa {
+    width: 200px; /* Ajuste do tamanho */
+    height: auto;
+    border-radius: 15px;
+    margin-top: 50px;
+    margin-left: -50px;
+
+}
+
+.imagem-placa:hover {
+    transform: scale(1.1); /* Efeito de zoom ao passar o mouse */
+}

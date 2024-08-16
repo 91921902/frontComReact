@@ -1,0 +1,12 @@
+
+.imagem-logo {
+    width: 100px; /* Ajuste do tamanho  */
+    height: auto;
+    border-radius: 15px;
+    margin-top: 30px;
+
+}
+
+.imagem-logo:hover {
+    transform: scale(1.1); /* Efeito de zoom ao passar o mouse */
+}
