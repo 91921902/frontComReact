@@ -1,11 +1,18 @@
+.container-galeria {
+    position: relative; /* Torna o contêiner um elemento de referência para o posicionamento absoluto */
+    width: 100%; /* Faz o contêiner ocupar toda a largura da tela */
+    height: auto; /* Ajusta a altura conforme o conteúdo */
+    margin-top: 50px;
+}
+
 
 .imagem-placa {
+    position: absolute; /* Permite posicionar a imagem em relação ao contêiner */
+    right: 0; /* Alinha a imagem à direita do contêiner */
     width: 200px; /* Ajuste do tamanho */
     height: auto;
     border-radius: 15px;
-    margin-top: 50px;
-    margin-left: -50px;
-
+    transition: transform 0.3s ease; /* Adiciona uma transição suave para o efeito de zoom */
 }
 
 .imagem-placa:hover {
