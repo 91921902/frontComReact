@@ -1,20 +1,55 @@
 .container-galeria {
-    position: relative; /* Torna o contêiner um elemento de referência para o posicionamento absoluto */
-    width: 100%; /* Faz o contêiner ocupar toda a largura da tela */
-    height: auto; /* Ajusta a altura conforme o conteúdo */
-    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    position: relative;
 }
 
-
 .imagem-placa {
-    position: absolute; /* Permite posicionar a imagem em relação ao contêiner */
-    right: 0; /* Alinha a imagem à direita do contêiner */
-    width: 200px; /* Ajuste do tamanho */
+    width: 200px;
     height: auto;
+    margin-bottom: 180px;
     border-radius: 15px;
-    transition: transform 0.3s ease; /* Adiciona uma transição suave para o efeito de zoom */
+    transition: transform 0.3s ease;
+    align-items: flex-end;
+    margin-left: auto;
+
 }
 
 .imagem-placa:hover {
-    transform: scale(1.1); /* Efeito de zoom ao passar o mouse */
+    transform: scale(1.1);
+}
+
+.carrossel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    animation: slide 10s infinite linear;
+    margin-top: -50px;
+}
+
+.imagem {
+    width: 200px;
+    height: auto;
+    margin-right: 10px;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+}
+
+.imagem:hover {
+    transform: scale(1.1);
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
 }
