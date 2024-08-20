@@ -3,12 +3,7 @@ import './Galeria.css';
 
 export default function Galeria() {
   return (
-    <div className="container-galeria">
-      <img 
-        className="imagem-placa" 
-        src="/image/farmarcia-placa.png" 
-        alt="Placa da Farmácia" 
-      />
+   
       <div className="carrossel">
         <img 
           className="imagem" 
@@ -26,6 +21,6 @@ export default function Galeria() {
           alt="Camisetas personalizadas da Farmácia" 
         />
       </div>
-    </div>
+    
   )
 }

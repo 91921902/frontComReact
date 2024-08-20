@@ -7,20 +7,6 @@
     position: relative;
 }
 
-.imagem-placa {
-    width: 200px;
-    height: auto;
-    margin-bottom: 180px;
-    border-radius: 15px;
-    transition: transform 0.3s ease;
-    align-items: flex-end;
-    margin-left: auto;
-
-}
-
-.imagem-placa:hover {
-    transform: scale(1.1);
-}
 
 .carrossel {
     display: flex;
@@ -30,7 +16,7 @@
     overflow: hidden;
     position: relative;
     animation: slide 10s infinite linear;
-    margin-top: -50px;
+    margin-top: 200px;
 }
 
 .imagem {
