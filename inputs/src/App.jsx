@@ -58,10 +58,11 @@ function App() {
         <p>
           Idade: {inputIdade}
         </p>
-        <div>
-          Usuarios:{
+        <h2> Usuarios:</h2>
+        <div className='usuarios'>
+          {
           usuarios.map((usuario,index)=>(
-            <div key={usuario.id}>
+            <div key={usuario.id} className='usuario-container'>
             <p>{usuario.nome}</p>
             <p>{usuario.idade}</p>
             </div>
